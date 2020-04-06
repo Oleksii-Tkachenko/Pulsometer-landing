@@ -9,3 +9,43 @@
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
+@import 'blocks/advantages';
+.icons-block {
+    display: flex;
+    justify-content: space-between;
+    &__icon {
+        width: 108px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        color: #ffffff;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    &__icon_black {
+        color: #0d0d0d;
+        font-weight: 300;
+        width: 247px;
+        line-height: 16px;
+        a {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+        img {
+            margin-bottom: 38px;
+        }
+    }
+}
+.section-header {
+    font-size: 30px;
+    font-weight: 500;
+    color: #0d0d0d;
+}
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}

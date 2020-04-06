@@ -26,20 +26,6 @@
     &__icons {
         margin-top: 65px;
         width: 425px;
-        display: flex;
-        justify-content: space-between;
-    }
-    &__icon {
-        width: 108px;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 500;
-        color: #ffffff;
-        img {
-            display: block;
-            margin: 0 auto;
-            margin-bottom: 20px;
-        }
     }
     &__link {
         font-size: 16px;
