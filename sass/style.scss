@@ -10,6 +10,8 @@
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
+@import 'blocks/consultation';
+@import 'blocks/forms';
 .icons-block {
     display: flex;
     justify-content: space-between;
@@ -43,6 +45,12 @@
     font-size: 30px;
     font-weight: 500;
     color: #0d0d0d;
+    text-transform: uppercase;
+    &_left{
+        text-align: left;
+        color: #ffffff;
+        font-size: 36px;
+    }
 }
 .title {
     font-size: 18px;
