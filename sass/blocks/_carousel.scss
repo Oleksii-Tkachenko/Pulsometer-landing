@@ -4,6 +4,13 @@
         position: relative;
         width: 750px;
         margin: 0 auto;
+        div {
+            display: flex;
+            align-items: center;
+        }
+        img {
+            width: 100%;
+        }
     }
     .slick-prev, .slick-next {
         position: absolute;
@@ -21,4 +28,5 @@
         right: -66px;
         left: auto;
     }
+
 }

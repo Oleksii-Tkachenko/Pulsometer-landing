@@ -1,0 +1,39 @@
+.feedback {
+    &__header {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    &__content {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 48px;
+        margin-bottom: 50px;
+        border-bottom: 1px solid #646464; 
+        &:nth-child(4) {
+            border: none;
+            margin-bottom: 19px;
+        }
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+        margin-right: 62px;
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        color: #0d0d0d;
+              
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: bold;
+        color: #0d0d0d;
+    }
+    &__marathon {
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+}
