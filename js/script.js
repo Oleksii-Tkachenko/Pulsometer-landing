@@ -102,15 +102,16 @@ $(document).ready(function () {
     });
 
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 1600) {
+        if ($(this).scrollTop() > 1600 && $(this).width() < 992) {
             $('.pageup').fadeIn();
+            console.log("fade")
         } else {
             $('.pageup').fadeOut();
         }
     });
     
     $("a[href=#up]").click(function(){
-            var _href = $(this).attr("href");
+            let _href = $(this).attr("href");
             $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
             return false;
     });
